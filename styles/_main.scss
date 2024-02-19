@@ -55,7 +55,7 @@ body {
       align-items: self-start;
       position: absolute;
       border: 1px solid white;
-      top: 62%;
+      top: 68%;
       left: 50%;
       transform: translate(-50%, -50%);
       width: 90%;
@@ -71,7 +71,7 @@ body {
         text-transform: capitalize;
         border-bottom: 0.03em solid grey;
         width: 100%;
-        font-size: 0.9rem; //size related
+        font-size: 0.9em; //size related
         padding: 1.5em 1em;
         font-weight: 700;
         cursor: pointer;
@@ -91,7 +91,7 @@ body {
     z-index: 1;
     position: absolute;
     // border: 1px solid red;
-    top: 98rem; // size related
+    top: 92rem; // size related
     left: 50%;
 
     transform: translate(-50%, -50%);
@@ -148,11 +148,15 @@ body {
             display: none;
           }
 
+          .mobile-bookmark {
+            width: 3em;
+          }
+
           .project {
             background-color: $Moderate-cyan;
             text-decoration: none;
-            width: 65%; // size related
-            height: 3em;
+            width: 60%; // size related
+            padding: 1em;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -162,7 +166,7 @@ body {
             font-weight: 700;
             cursor: pointer;
             transition: all 300ms ease-in-out;
-            font-size: 1rem;
+            font-size: 0.8rem;
             &:hover {
               background-color: lighten($color: $Moderate-cyan, $amount: 15%);
             }
@@ -286,11 +290,11 @@ body {
             &__bottom {
               .black {
                 display: flex;
-                font-size: 1.25rem; // size related
+                font-size: 1.15rem; // size related
                 align-items: center;
                 gap: 0.35em;
                 .block {
-                  font-size: 0.85rem;
+                  font-size: 0.65rem;
                   color: #909090;
                   font-weight: 300;
                 }
@@ -306,11 +310,13 @@ body {
                 justify-content: center;
                 align-items: center;
                 border-radius: 1.75em;
-                height: 3em;
+
                 color: whitesmoke;
                 text-transform: capitalize;
                 cursor: pointer;
                 transition: all 300ms ease-in;
+                padding: 0.8em;
+                font-size: 0.8rem;
                 &:hover {
                   background-color: lighten(
                     $color: $Moderate-cyan,
@@ -434,7 +440,7 @@ body {
               border: none;
               background: #e8e8e8;
               justify-content: space-between;
-              height: 3.5em;
+              height: 3em;
               align-items: center;
               gap: 2em;
               width: 30%;

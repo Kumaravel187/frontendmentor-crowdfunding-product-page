@@ -116,7 +116,7 @@ body {
   align-items: self-start;
   position: absolute;
   border: 1px solid white;
-  top: 62%;
+  top: 68%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 90%;
@@ -131,7 +131,7 @@ body {
   text-transform: capitalize;
   border-bottom: 0.03em solid grey;
   width: 100%;
-  font-size: 0.9rem;
+  font-size: 0.9em;
   padding: 1.5em 1em;
   font-weight: 700;
   cursor: pointer;
@@ -146,7 +146,7 @@ body {
 .main-display .main {
   z-index: 1;
   position: absolute;
-  top: 98rem;
+  top: 92rem;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -198,11 +198,14 @@ body {
 .main-display .main .main-container__intro--flex .btn-bookmark-desktop {
   display: none;
 }
+.main-display .main .main-container__intro--flex .mobile-bookmark {
+  width: 3em;
+}
 .main-display .main .main-container__intro--flex .project {
   background-color: hsl(176, 50%, 47%);
   text-decoration: none;
-  width: 65%;
-  height: 3em;
+  width: 60%;
+  padding: 1em;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -212,7 +215,7 @@ body {
   font-weight: 700;
   cursor: pointer;
   transition: all 300ms ease-in-out;
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 .main-display .main .main-container__intro--flex .project:hover {
   background-color: #6ecfc8;
@@ -317,12 +320,12 @@ body {
 }
 .main-display .main .main-container__about--sub-container .grid-item__bottom .black {
   display: flex;
-  font-size: 1.25rem;
+  font-size: 1.15rem;
   align-items: center;
   gap: 0.35em;
 }
 .main-display .main .main-container__about--sub-container .grid-item__bottom .black .block {
-  font-size: 0.85rem;
+  font-size: 0.65rem;
   color: #909090;
   font-weight: 300;
 }
@@ -335,11 +338,12 @@ body {
   justify-content: center;
   align-items: center;
   border-radius: 1.75em;
-  height: 3em;
   color: whitesmoke;
   text-transform: capitalize;
   cursor: pointer;
   transition: all 300ms ease-in;
+  padding: 0.8em;
+  font-size: 0.8rem;
 }
 .main-display .main .main-container__about--sub-container .grid-item__bottom a:hover {
   background-color: #81d5cf;
@@ -433,7 +437,7 @@ body {
     border: none;
     background: #e8e8e8;
     justify-content: space-between;
-    height: 3.5em;
+    height: 3em;
     align-items: center;
     gap: 2em;
     width: 30%;
