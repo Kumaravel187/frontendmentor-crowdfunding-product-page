@@ -116,7 +116,7 @@ body {
   align-items: self-start;
   position: absolute;
   border: 1px solid white;
-  top: 52%;
+  top: 62%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 90%;
@@ -131,7 +131,7 @@ body {
   text-transform: capitalize;
   border-bottom: 0.03em solid grey;
   width: 100%;
-  font-size: 1.05rem;
+  font-size: 0.9rem;
   padding: 1.5em 1em;
   font-weight: 700;
   cursor: pointer;
@@ -146,7 +146,7 @@ body {
 .main-display .main {
   z-index: 1;
   position: absolute;
-  top: 92rem;
+  top: 98rem;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -177,14 +177,14 @@ body {
   transform: translate(-50%, -50%);
 }
 .main-display .main .main-container__intro .heading {
-  font-size: 1.35rem;
+  font-size: 1.15rem;
   text-transform: capitalize;
   line-height: 1.2;
   font-weight: bold;
   width: 90%;
 }
 .main-display .main .main-container__intro .description {
-  font-size: 0.85rem;
+  font-size: 0.75rem;
   color: #a0a0a0;
   line-height: 1.8;
   width: 90%;
@@ -201,7 +201,7 @@ body {
 .main-display .main .main-container__intro--flex .project {
   background-color: hsl(176, 50%, 47%);
   text-decoration: none;
-  width: 75%;
+  width: 65%;
   height: 3em;
   display: flex;
   align-items: center;
@@ -280,7 +280,7 @@ body {
 .main-display .main .main-container__about .description {
   color: #909090;
   line-height: 1.7;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   font-weight: 300;
 }
 .main-display .main .main-container__about--sub-container {
@@ -290,7 +290,7 @@ body {
 }
 .main-display .main .main-container__about--sub-container .grid-item {
   border: 1px solid #dcdcdc;
-  padding: 2em;
+  padding: 1.25em;
   display: flex;
   flex-direction: column;
   gap: 1.5em;
@@ -317,7 +317,7 @@ body {
 }
 .main-display .main .main-container__about--sub-container .grid-item__bottom .black {
   display: flex;
-  font-size: 2rem;
+  font-size: 1.25rem;
   align-items: center;
   gap: 0.35em;
 }
@@ -329,13 +329,13 @@ body {
 .main-display .main .main-container__about--sub-container .grid-item__bottom a {
   text-decoration: none;
   background-color: hsl(176, 50%, 47%);
-  width: 65%;
+  width: 60%;
   background-color: hsl(176, 50%, 47%);
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 1.75em;
-  height: 3.25em;
+  height: 3em;
   color: whitesmoke;
   text-transform: capitalize;
   cursor: pointer;

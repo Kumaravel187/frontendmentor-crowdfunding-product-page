@@ -55,7 +55,7 @@ body {
       align-items: self-start;
       position: absolute;
       border: 1px solid white;
-      top: 52%;
+      top: 62%;
       left: 50%;
       transform: translate(-50%, -50%);
       width: 90%;
@@ -71,7 +71,7 @@ body {
         text-transform: capitalize;
         border-bottom: 0.03em solid grey;
         width: 100%;
-        font-size: 1.05rem;
+        font-size: 0.9rem; //size related
         padding: 1.5em 1em;
         font-weight: 700;
         cursor: pointer;
@@ -91,7 +91,7 @@ body {
     z-index: 1;
     position: absolute;
     // border: 1px solid red;
-    top: 92rem;
+    top: 98rem; // size related
     left: 50%;
 
     transform: translate(-50%, -50%);
@@ -124,7 +124,7 @@ body {
         }
 
         .heading {
-          font-size: 1.35rem;
+          font-size: 1.15rem; // size related
           text-transform: capitalize;
           line-height: 1.2;
           font-weight: bold;
@@ -132,7 +132,7 @@ body {
         }
 
         .description {
-          font-size: 0.85rem;
+          font-size: 0.75rem; // size related
           color: #a0a0a0;
           line-height: 1.8;
           width: 90%;
@@ -151,7 +151,7 @@ body {
           .project {
             background-color: $Moderate-cyan;
             text-decoration: none;
-            width: 75%;
+            width: 65%; // size related
             height: 3em;
             display: flex;
             align-items: center;
@@ -238,7 +238,7 @@ body {
         .description {
           color: #909090;
           line-height: 1.7;
-          font-size: 0.9rem;
+          font-size: 0.85rem; // size related
           font-weight: 300;
         }
 
@@ -250,7 +250,7 @@ body {
 
           .grid-item {
             border: 1px solid #dcdcdc;
-            padding: 2em;
+            padding: 1.25em;
             display: flex;
             flex-direction: column;
             gap: 1.5em;
@@ -261,7 +261,7 @@ body {
               flex-direction: column;
 
               font-weight: 700;
-              font-size: 0.9rem;
+              font-size: 0.9rem; // size related
             }
 
             &__top {
@@ -286,7 +286,7 @@ body {
             &__bottom {
               .black {
                 display: flex;
-                font-size: 2rem;
+                font-size: 1.25rem; // size related
                 align-items: center;
                 gap: 0.35em;
                 .block {
@@ -299,14 +299,14 @@ body {
               a {
                 text-decoration: none;
                 background-color: $Moderate-cyan;
-                width: 65%;
+                width: 60%; // size related
                 background-color: $Moderate-cyan;
                 // padding-bottom: 0.25em;
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 border-radius: 1.75em;
-                height: 3.25em;
+                height: 3em;
                 color: whitesmoke;
                 text-transform: capitalize;
                 cursor: pointer;
