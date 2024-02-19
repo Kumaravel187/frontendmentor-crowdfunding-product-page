@@ -259,6 +259,9 @@
 
 @media screen and (min-width: 62rem) {
   .main-display {
+    .section-modal {
+      width: 70vw;
+    }
     .finished {
       width: 50vw;
     }
@@ -267,6 +270,9 @@
 
 @media screen and (min-width: 78rem) {
   .main-display {
+    .section-modal {
+      width: 60vw;
+    }
     .finished {
       width: 40vw;
     }
@@ -275,6 +281,10 @@
 
 @media screen and (min-width: 85rem) {
   .main-display {
+    .section-modal {
+      width: 48vw;
+    }
+
     .finished {
       width: 30vw;
       padding: 3em;
