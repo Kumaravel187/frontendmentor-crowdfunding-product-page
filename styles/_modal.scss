@@ -36,7 +36,7 @@
     .modal-grid-container {
       display: grid;
       gap: 1em;
-      grid-template-rows: 0.5fr 0.75fr 0.75fr 0.5fr;
+      grid-template-rows: 0.4fr 0.75fr 0.75fr 0.5fr;
       .grid-item {
         border: 1px solid #dcdcdc;
         padding: 1.25em;
@@ -99,6 +99,7 @@
           .pledge {
             color: #a0a0a0;
             text-transform: capitalize;
+            font-size: 0.85rem;
           }
           .pledge-inputs {
             display: flex;
@@ -108,7 +109,6 @@
             gap: 1.5em;
 
             input {
-              flex: 1;
               width: 50%;
               border-radius: 1em;
               border: 1px solid #dcdcdc;
@@ -127,13 +127,14 @@
               justify-content: center;
               width: 50%;
               border: none;
-              border-radius: 1em;
+              border-radius: 1.25em;
               text-transform: capitalize;
               color: whitesmoke;
               cursor: pointer;
               transition: all 300ms ease-in-out;
               background-color: $Moderate-cyan;
-              padding: 0.35em 0;
+              padding: 0.5em;
+              font-size: 0.85rem;
               &:hover {
                 background-color: lighten($color: $Moderate-cyan, $amount: 20%);
               }
@@ -145,10 +146,6 @@
           opacity: 0.5;
           user-select: none;
         }
-      }
-
-      .crack {
-        border: 1px solid #dcdcdc;
       }
     }
 

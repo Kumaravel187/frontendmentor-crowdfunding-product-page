@@ -566,7 +566,7 @@ body {
 .main-display .section-modal .modal-grid-container {
   display: grid;
   gap: 1em;
-  grid-template-rows: 0.5fr 0.75fr 0.75fr 0.5fr;
+  grid-template-rows: 0.4fr 0.75fr 0.75fr 0.5fr;
 }
 .main-display .section-modal .modal-grid-container .grid-item {
   border: 1px solid #dcdcdc;
@@ -627,6 +627,7 @@ body {
 .main-display .section-modal .modal-grid-container .grid-item__pledge-container .pledge {
   color: #a0a0a0;
   text-transform: capitalize;
+  font-size: 0.85rem;
 }
 .main-display .section-modal .modal-grid-container .grid-item__pledge-container .pledge-inputs {
   display: flex;
@@ -634,7 +635,6 @@ body {
   gap: 1.5em;
 }
 .main-display .section-modal .modal-grid-container .grid-item__pledge-container .pledge-inputs input {
-  flex: 1;
   width: 50%;
   border-radius: 1em;
   border: 1px solid #dcdcdc;
@@ -654,13 +654,14 @@ body {
   justify-content: center;
   width: 50%;
   border: none;
-  border-radius: 1em;
+  border-radius: 1.25em;
   text-transform: capitalize;
   color: whitesmoke;
   cursor: pointer;
   transition: all 300ms ease-in-out;
   background-color: hsl(176, 50%, 47%);
-  padding: 0.35em 0;
+  padding: 0.5em;
+  font-size: 0.85rem;
 }
 .main-display .section-modal .modal-grid-container .grid-item__pledge-container .pledge-inputs button:hover {
   background-color: #81d5cf;
@@ -670,9 +671,6 @@ body {
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
-}
-.main-display .section-modal .modal-grid-container .crack {
-  border: 1px solid #dcdcdc;
 }
 .main-display .section-modal .check {
   width: 4em;
